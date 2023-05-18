@@ -4,57 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Primer proyecto u1</title>
-    <!--1. Universal-->
-    <style>
-      * {
-        color: yellow;
-        background-color: black;
-      }
-    /*2. por elemento*/
-    h1 {
-      color: blue;
-    }
-    p{
-      size: 17px;
-    }
-    .clase1 {
-      color: aqua;
-    }
-    .clase2 {
-      color : purple;
-    }
-    #idtitulogrande{
-      color: greenyellow;
-    }
-    a[href] {
-      color: brown;
-    }
-
-    a[href*=".ec"] {
-      color: rgb(192, 6, 230);
-    }
-
-    /*img[alt*="puede"]{
-
-    }*/
-
-    /*label:hover{
-      color: orangered;
-      background-color: blue;
-      font-size: 51px;
-    }*/
-    
-    </style>
+    <title>Primer proyecto u1 con css externo</title>
+    <link rel="stylesheet" href="../css/externo.css">
+    <link rel="stylesheet" href="../css/externo2.css">
   </head>
   <body>
     <header>
-      <h1 style="color: red;">Banco Pichincha</h1>
-      <h6 style="color:yellow">Banco Pichincha</h6>
+      <h1 >Banco Pichincha</h1>
+      <h6 >Banco Pichincha</h6>
       <h4 class="clase1">selector clase1</h4>
       <h4 class="clase2">selector clase2</h3>
       <h3 id="idtitulogrande">selector por ID</h3>
-      <img src="img/cabecera.png" alt="No se pudo cargar la imagen" />
+      <img src="../img/cabecera.png" alt="No se pudo cargar la imagen" />
     </header>
     <nav>
       <ul>
@@ -85,7 +46,7 @@
         <h1>1</h1>
         <h3>Primer Parrafo</h3>
         <time datetime="12-10-2023">Publicado el 12-10-2023</time>
-        <p>
+        <p class="clase1">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam commodi
           nihil molestias, sint dolorum provident numquam at repellat possimus
           aut ipsa, esse harum illo molestiae veritatis mollitia suscipit eum
