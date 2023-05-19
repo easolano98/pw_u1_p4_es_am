@@ -1,0 +1,55 @@
+.menu li{
+    list-style: none;
+    display: inline-block;  
+    border: inset gray;
+    /*margin: 10px 20px 30px 40px;*/
+    margin: 5px;
+    padding: 15px 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.cabecera h1{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    color: cornflowerblue;
+
+}
+
+.menu{
+    background-color: blanchedalmond;
+    text-align: left;
+}
+
+header, section, footer, aside, nav,article{
+    display: block;
+}
+
+body{
+    text-align: center;
+    background: aquamarine;
+}
+
+.formulario{
+    width: 900px;
+    border: 1px double black;
+    margin: 15px auto;
+}
+
+.seccion{
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+
+article{
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 25px ;
+    background-color: violet;
+}
+/*
+h1, h2, h3, h4, h5, h6{
+    color: red;
+}*/
