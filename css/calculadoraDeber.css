@@ -36,6 +36,7 @@
     font-family: 'Times New Roman', Times, serif;
     margin: 5px;
     font-size: 25px;
+    box-shadow: 2px 2px 20px 2px hsla(0, 96%, 30%, 0.75);
 }
 
 .calculadora button:hover{
